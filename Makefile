@@ -2,6 +2,7 @@
 # When building a package or installing otherwise in the system, make
 # sure that the variable PREFIX is defined, e.g. make PREFIX=/usr/local
 #
+CFLAGS+=-DENABLE_WEBSERVER
 PROGNAME=dump1090
 
 ifndef DUMP1090_VERSION
